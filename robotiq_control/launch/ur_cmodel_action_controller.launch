@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
   <!-- launch file parameters -->  
-  <arg name="topic" default="/b_bot_controller/ur_driver/URScript" />
+  <arg name="topic" default="/ur_hardware_interface/script_command" />
   <arg name="namespace" default="gripper" />
   <arg name="gripper_prefix" default="" />  
   
